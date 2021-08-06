@@ -1,27 +1,31 @@
-# Adminlte
+Integration d'AdminLTE3 avec Angular 10
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
+----------------------------------------------------------------------------
+Etape à suivre - 
 
-## Development server
+1. installer adminlte avec la commande -> npm install -g @angular/cli
+------------------------------------------------------
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+2. Créer un nouveau projet angular -> ng new monProjetAngular
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+------------------------------------------------------
+3. Installer admin lte 3 -> npm install admin-lte@^3.0 --save
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+------------------------------------------------------
+4. choisissez un theme sur le site officiel d'admin lte -> https://adminlte.io/themes/dev/AdminLTE/index.html
 
-## Running unit tests
+5. Mettre à jour le fichier angular.json avec le style et script (ressource  [Ici](./script_admin_lte.txt))
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+------------------------------------------------------
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+5. Changer dans index.html - body et class
+   App.Component.html - changer le contenu
+   Copier les images au dossier asset  
+   changer le chemin d'accés aux images dans vos components
+------------------------------------------------------
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+	Pour plus de precision, visiter ma chaine youtube [Shadow codex](./script_admin_lte.txt)
+	#credit https://github.com/cpvariyani/
