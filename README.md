@@ -3,7 +3,7 @@ Integration d'AdminLTE3 avec Angular 10
 ----------------------------------------------------------------------------
 Etape à suivre - 
 
-1. installer adminlte avec la commande -> npm install -g @angular/cli
+1. installer angular cli avec la commande -> npm install -g @angular/cli
 ------------------------------------------------------
 
 2. Créer un nouveau projet angular -> ng new monProjetAngular
